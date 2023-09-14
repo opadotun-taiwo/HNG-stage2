@@ -6,7 +6,7 @@ import vector1 from "@/assets/Vector1.png";
 import vector2 from "@/assets/Vector2.png";
 import vector3 from "@/assets/Vector3.png";
 import vector4 from "@/assets/Vector4.png";
-import seemore from "@/assets/seemore.png";
+import Seemore from "@/assets/Seemore.png";
 
 export default async function Home() {
   const movies = await getTrendingMovies();
@@ -28,7 +28,7 @@ export default async function Home() {
             Featured movie
           </h1>
           <p>
-            <Image src={seemore} alt="Social Icon" />
+            <Image src={Seemore} alt="Social Icon" />
           </p>
         </div>
         <div className="flex flex-wrap gap-8 justify-center items-center px-8">
