@@ -37,7 +37,7 @@ const Header = () => {
                 aria-describedby="button-addon2" />
 
                 <button type='submit'
-                    className="input-group-text flex items-center whitespace-nowrap rounded px-3 py-1.5 text-center text-base font-normal text-neutral-700 dark:text-neutral-200"
+                    className="input-group-text flex items-center whitespace-nowrap rounded px-3 py-1.5 text-center text-base font-normal text-white dark:text-neutral-200"
                     id="basic-addon2">
                     <svg
                     xmlns="http://www.w3.org/2000/svg"

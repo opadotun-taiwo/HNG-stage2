@@ -7,6 +7,8 @@ import vector2 from "@/assets/Vector2.png";
 import vector3 from "@/assets/Vector3.png";
 import vector4 from "@/assets/Vector4.png";
 import Seemore from "@/assets/Seemore.png";
+import IMBD from "@/assets/IMBD.png";
+import Button from "@/assets/Button.png";
 
 export default async function Home() {
   const movies = await getTrendingMovies();
@@ -19,6 +21,19 @@ export default async function Home() {
           <h2 className="text-white font-bold text-[2rem]">
             John Wick 3: Parabellum
           </h2>
+          <p className="text-white flex items-center gap-5">
+            <Image src={IMBD} alt="banner icon" />
+            <span className="text-sm">880/100</span>
+          </p>
+          <p className="text-white my-4">
+            John Wick is on the run after killing a member of <br />
+            the international assassins' guild, and with a $14 <br />
+            million price tag on his head, <br /> he is the target of hit men
+            and women everywhere.
+          </p>
+          <p>
+            <Image src={Button} alt="banner icon" />
+          </p>
         </div>
       </div>
 
