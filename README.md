@@ -1,14 +1,19 @@
-
 # About project
+
 This is a frontend based project. It is a movie web app that consume api from TMDB api routes to show top ten movies on the front page. This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). The design was inplemented using this figma file - https://www.figma.com/file/tVfgoNfhYkQaUkh8LGqRab/MovieBox-(Community)?type=design&node-id=1220-324&mode=design&t=6998DWtjQrxz8mOf-0
 
+![Alt text](<assets/MovieBox (Community).jpg>)
+![Alt text](assets/Movies-1.jpg)
+
 ## Features
-A search feature to search movies using names of movies. 
+
+A search feature to search movies using names of movies.
 Get movie details features that allow users get the release date, overview and run time of the movies
 
-
 ## Getting Started
+
 ### Run this code in the terminal
+
 git clone [https://github.com/iaincollins/nextjs-starter.git](https://github.com/opadotun-taiwo/HNG-stage2/)
 
 npm install
@@ -41,6 +46,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 ## Deployed on Vercel
 
 ### See hosted website
+
 https://hng-stage2-f1rd.vercel.app/
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

@@ -55,7 +55,7 @@ const Header = () => {
             </div>
             
             <div className='flex items-center justify-between gap-3'>
-                <p>Sign in</p>
+                <p className='text-white font-medium'>Sign in</p>
                 <p className='w-[20px] h-[20px]'><Image src={Menu1} alt='icon'/></p>
             </div>
             
