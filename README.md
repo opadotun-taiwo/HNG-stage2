@@ -11,8 +11,12 @@ Get movie details features that allow users get the release date, overview and r
 https://hng-stage2-f1rd.vercel.app/
 
 ## Getting Started
+### Run this code in the terminal
+git clone [https://github.com/iaincollins/nextjs-starter.git](https://github.com/opadotun-taiwo/HNG-stage2/)
 
-First, run the development server:
+npm install
+
+Run the development server:
 
 ```bash
 npm run dev
