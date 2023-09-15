@@ -1,7 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). The design was inplemented using this figma file - https://www.figma.com/file/tVfgoNfhYkQaUkh8LGqRab/MovieBox-(Community)?type=design&node-id=1220-324&mode=design&t=6998DWtjQrxz8mOf-0
 
 # About project
-This is a frontend based project. It is a movie web app that consume api from TMDB api routes to show top ten movies on the front page.
+This is a frontend based project. It is a movie web app that consume api from TMDB api routes to show top ten movies on the front page. This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). The design was inplemented using this figma file - https://www.figma.com/file/tVfgoNfhYkQaUkh8LGqRab/MovieBox-(Community)?type=design&node-id=1220-324&mode=design&t=6998DWtjQrxz8mOf-0
 
 ## Features
 A search feature to search movies using names of movies. 
