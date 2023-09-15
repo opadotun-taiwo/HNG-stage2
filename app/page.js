@@ -9,6 +9,7 @@ import vector4 from "@/assets/Vector4.png";
 import Seemore from "@/assets/Seemore.png";
 import IMBD from "@/assets/IMBD.png";
 import Button from "@/assets/Button.png";
+import RottenTomatoes from "@/assets/RottenTomatoes.png";
 
 export default async function Home() {
   const movies = await getTrendingMovies();
@@ -17,13 +18,16 @@ export default async function Home() {
     <div className="">
       <div className="w-full h-full relative mt-[-100px]">
         <Image src={Poster} alt="movie banner" />
-        <div className="w-[50%] absolute mt-[-300px] ml-[30px] px-10">
+        <div className="w-[50%] absolute mt-[-350px] ml-[30px] px-10">
           <h2 className="text-white font-bold text-[2rem]">
             John Wick 3: Parabellum
           </h2>
           <p className="text-white flex items-center gap-5">
             <Image src={IMBD} alt="banner icon" />
             <span className="text-sm">880/100</span>
+            <span className="text-sm">
+              <Image src={RottenTomatoes} />
+            </span>
           </p>
           <p className="text-white my-4">
             John Wick is on the run after killing a member of <br />
@@ -69,14 +73,14 @@ export default async function Home() {
           </p>
         </div>
 
-        <div className="flex items-center justify-center gap-6 my-5">
+        <div className="flex items-center justify-center gap-6 my-5 text-black font-medium">
           <p>Conditions of use</p>
           <p>Privacy & Policy</p>
           <p>Press Room</p>
         </div>
 
         <div className="flex items-center justify-center gap-3">
-          <p>&copy 2021 MovieBox by Adriana Eka Prayudha</p>
+          <p>© 2021 MovieBox by Opadotun Taiwo</p>
         </div>
       </div>
     </div>

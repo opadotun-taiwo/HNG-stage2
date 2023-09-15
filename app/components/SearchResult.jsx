@@ -8,14 +8,13 @@ const SearchResult = ({movies, searchText}) => {
 
   useEffect(() => {
     setFilteredMovies(movies);
+
+    
   }, [movies]);
 
 
   return (
     <div className="m-4">
-      <h1 className="flex justify-center items-center text-center font-semibold p-4 text-xl">
-        Top Search Results for &quot;{searchText}&quot;
-      </h1>
       <div className="flex flex-wrap gap-3">
             {filteredMovies.map((movie) => {
                 return <Card key={movie.id} movie={movie}></Card>

@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import Logo from '@/assets/Logo.png'
 import Icon from '@/assets/Icon.png'
+import Menu1 from '@/assets/Menu1.png'
 
 const Header = () => {
     const [searchText, setSearchtext] = useState("")
@@ -55,7 +56,7 @@ const Header = () => {
             
             <div className='flex items-center justify-between gap-3'>
                 <p>Sign in</p>
-                <p className='w-[20px] h-[20px]'><Image src={Icon} alt='icon'/></p>
+                <p className='w-[20px] h-[20px]'><Image src={Menu1} alt='icon'/></p>
             </div>
             
         </div>
