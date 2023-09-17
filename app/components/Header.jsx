@@ -23,8 +23,7 @@ const Header = () => {
         className="relative flex w-full flex-wrap items-center justify-between py-2 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 dark:bg-neutral-600 lg:py-4 z-20 px-10">
         <div className="flex w-full flex-wrap items-center justify-between px-3">
             <Link className="ml-2 text-xl text-neutral-800 dark:text-neutral-200"
-            href="/"
-            ><Image src={Logo} width={200} height={200}/></Link>
+            href="/"><Image src={Logo} width={200} height={200}/></Link>
 
             <div className='w-[40%]'>
             <form role='search' onSubmit={e => handleSubmit(e)}
